@@ -1,0 +1,45 @@
+body{
+    background-image: url(login.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h1{
+    text-align: center;
+    color:white;
+}
+h2{
+    text-align: center;
+}
+#mainlogin{
+    background-color:rgb(118, 159, 196);
+    width:250px;
+    border:2px solid white;
+    margin:50px auto;
+    padding:20px;
+    padding-left: 30px;
+    border-radius: 5px;
+    display:block;
+}
+label{
+    display:block;
+    margin:4px 0;
+}
+input, #login-btn,#signup-btn{
+    padding:10px;
+    border-radius: 5px;
+    border:white;
+    margin-bottom: 10px;
+}
+#forgot{
+    text-align:right;
+    margin:0;
+}
+#login-btn,#signup-btn{
+    display:block;
+    margin:20px auto;
+    background-color: rgb(26, 73, 128);
+    color:white;
+    padding-left:20px;
+    padding-right: 20px;
+}
